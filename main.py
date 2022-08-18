@@ -1,7 +1,7 @@
 import pandas as pd
 from flask import Flask
 
-from database import connect_to_db
+from database import connect_to_db, create_db_table
 
 app = Flask(__name__)
 
@@ -15,4 +15,5 @@ def get_users():
 
 
 if __name__ == '__main__':
+    create_db_table()
     app.run()
