@@ -14,3 +14,6 @@ Then to send GET users requets either:
 - type http://localhost:5000/users in your web browser
 - in your terminal, execute curl http://localhost:5000/users
 - python requests
+
+# Reference
+https://github.com/parzibyte/api-rest-python-sqlite3/
