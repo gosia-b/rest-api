@@ -16,4 +16,5 @@ Then to send GET users requets either:
 - python requests
 
 # Reference
-https://github.com/parzibyte/api-rest-python-sqlite3/
+https://levelup.gitconnected.com/full-stack-web-app-with-python-react-and-bootstrap-backend-8592baa6e4eb
+https://parzibyte.me/blog/en/2020/11/12/creating-api-rest-with-python-flask-sqlite3/
