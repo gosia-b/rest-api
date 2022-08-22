@@ -12,6 +12,10 @@ A valid HTTP request has four components: an URL (Uniform Resource Locator), a m
 
 <img src="https://github.com/gosia-b/rest-api/blob/main/images/request.png" width="50%">
 
+The response coming from the server is composed of a status code, a list of headers, and a body:
+<img src="https://github.com/gosia-b/rest-api/blob/main/images/response.png" width="50%">
+
+
 # Overview
 REST APIs allow you to interact with resources via HTTP requests.  
 This API is for managing a database of users. It has only one endpoint - users.  
