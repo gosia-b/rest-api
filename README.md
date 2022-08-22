@@ -15,35 +15,34 @@ This API is built using Flask - a web framework written in Python which allows t
 
 <img src="https://github.com/gosia-b/rest-api/blob/main/images/flask.png" width="20%">
 
-For the API to work, run `main.py` - you will have the Flask application running on local host, port 5000 (default port for Flask).  
-Here are 3 ways in which you can interact with the API:
+For the API to work, run `main.py` - you will have the Flask application running on local host, port 5000 (default port for Flask).
+
+When you have the API running, you can send HTTP requests. Here is how you can do it in 3 ways:
 
 ### 1. web browser
-You can make GET requests in your web browser by entering the URL, e.g. to return a user with `user_id = 1`:
+In the web browser you can only make GET requests. E.g. to return a user with `user_id = 1`, enter the following URL:
 ```
 http://localhost:5000/users/1
 ```
+
 ### 2. curl
-### 3. Python requests library
-
-
-Then to send GET users requets either:
-- type http://localhost:5000/users in your web browser
-- in your terminal, execute curl http://localhost:5000/users
-- python requests
-
-# Use API
-https://linuxize.com/post/curl-post-request/
-
-if you're on windows, don't run those commands in powershell because they won't work (why??) but something else like git bash
-
+curl is a command line tool for transferring data. It supports about 22 protocols, including HTTP.  
+Run the following command in your terminal:
 ```bash
 curl -X POST -H "Content-Type: application/json" \
--d '{"name": "Colleen", "email": "colleen.brown@example.com", "address": "3904 First Street", "phone": "(908) 256-2784"}' \
-http://localhost:5000/users
+    -d '{"name": "Colleen", "email": "colleen.brown@example.com", "address": "3904 First Street", "phone": "(908) 256-2784"}' \
+    http://localhost:5000/users
+```
+(if you're on Windows - it won't work in PowerShell, you can use e.g. Git Bash instead)
+
+### 3. Python requests library
+```python
+import requests
+
+response = requests.get('http://localhost:5000/users/1')
+print(response.text)
 ```
 
-
 # Reference
-https://levelup.gitconnected.com/full-stack-web-app-with-python-react-and-bootstrap-backend-8592baa6e4eb
-https://parzibyte.me/blog/en/2020/11/12/creating-api-rest-with-python-flask-sqlite3/ with code: https://github.com/parzibyte/api-rest-python-sqlite3/
+- [Article 1](https://levelup.gitconnected.com/full-stack-web-app-with-python-react-and-bootstrap-backend-8592baa6e4eb)  
+- [Article 2](https://parzibyte.me/blog/en/2020/11/12/creating-api-rest-with-python-flask-sqlite3/) with [code](https://github.com/parzibyte/api-rest-python-sqlite3/)
