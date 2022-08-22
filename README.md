@@ -29,4 +29,4 @@ http://localhost:5000/users
 
 # Reference
 https://levelup.gitconnected.com/full-stack-web-app-with-python-react-and-bootstrap-backend-8592baa6e4eb
-https://parzibyte.me/blog/en/2020/11/12/creating-api-rest-with-python-flask-sqlite3/
+https://parzibyte.me/blog/en/2020/11/12/creating-api-rest-with-python-flask-sqlite3/ with code: https://github.com/parzibyte/api-rest-python-sqlite3/
