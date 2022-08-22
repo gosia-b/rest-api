@@ -15,7 +15,16 @@ This API is built using Flask - a web framework written in Python which allows t
 
 <img src="https://github.com/gosia-b/rest-api/blob/main/images/flask.png" width="20%">
 
-For the API to work, run `main.py` - you will have the Flask application running on local host, port 5000 (default port for Flask).
+For the API to work, run `main.py` - you will have the Flask application running on local host, port 5000 (default port for Flask).  
+Here are 3 ways in which you can interact with the API:
+
+### 1. web browser
+You can make GET requests in your web browser by entering the URL, e.g. to return a user with `user_id = 1`:
+```
+http://localhost:5000/users/1
+```
+### 2. curl
+### 3. Python requests library
 
 
 Then to send GET users requets either:
