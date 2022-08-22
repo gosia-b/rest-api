@@ -8,11 +8,15 @@ Here are listed all HTTP methods that you can use:
 
 <img src="https://github.com/gosia-b/rest-api/blob/main/images/methods.png" width="40%">
 
-
 Users for the database are taken from the [API](https://randomuser.me/) for generating random users.
 
-# Use
-To serve the API, run main.py  
+# How to use
+This API is built using Flask - a web framework written in Python which allows to easily develop web applications.
+
+<img src="https://github.com/gosia-b/rest-api/blob/main/images/flask.png" width="20%">
+
+For the API to work, run `main.py` - you will have the Flask application running on local host, port 5000 (default port for Flask).
+
 
 Then to send GET users requets either:
 - type http://localhost:5000/users in your web browser
