@@ -1,12 +1,15 @@
 # Introduction
 An application programming interface (API) is defined as an interface that handles the interactions between two or more pieces of software - commonly between a client application and a database.
 
-<img src="https://github.com/gosia-b/rest-api/blob/main/images/api.png" width="80%">
+The primary protocol for any web-based communication is HTTP.
 
-The primary protocol for any web-based communication is HTTP.  
 HTTP is a request-response protocol, meaning that any interaction between two parties is composed of a request and a response. The client issues the request to the server, and then the server sends a response to the client, even if it can't fulfil the request.
 
+<img src="https://github.com/gosia-b/rest-api/blob/main/images/api.png" width="80%">
+
+
 A valid HTTP request has four components: an URL (Uniform Resource Locator), a method, a list of headers, and a body:
+
 <img src="https://github.com/gosia-b/rest-api/blob/main/images/request.png" width="50%">
 
 # Overview
