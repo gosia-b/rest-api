@@ -1,29 +1,15 @@
-# Introduction
+# Overview
 An application programming interface (API) is defined as an interface that handles the interactions between two or more pieces of software - commonly between a client application and a database.
 
-The primary protocol for any web-based communication is HTTP.
+<img src="https://github.com/gosia-b/rest-api/blob/main/images/api.png" width="70%">
 
-HTTP is a request-response protocol, meaning that any interaction between two parties is composed of a request and a response. The client issues the request to the server, and then the server sends a response to the client, even if it can't fulfil the request.
+This REST API is for managing a database of users. It has two endpoints - `/users` and `/users/{user_id}`.  
+Here are listed all HTTP methods that you can use:
 
-<img src="https://github.com/gosia-b/rest-api/blob/main/images/api.png" width="80%">
-
-
-A valid HTTP request has four components: an URL (Uniform Resource Locator), a method, a list of headers, and a body:
-
-<img src="https://github.com/gosia-b/rest-api/blob/main/images/request.png" width="50%">
-
-The response coming from the server is composed of a status code, a list of headers, and a body:
-<img src="https://github.com/gosia-b/rest-api/blob/main/images/response.png" width="50%">
+<img src="https://github.com/gosia-b/rest-api/blob/main/images/methods.png" width="40%">
 
 
-# Overview
-REST APIs allow you to interact with resources via HTTP requests.  
-This API is for managing a database of users. It has only one endpoint - users.  
-Here are listed all possible requests:
-
-<img src="https://github.com/gosia-b/rest-api/blob/main/images/requests.png" width="40%">
-
-Users for the database are taken from the API for generating random users: https://randomuser.me/
+Users for the database are taken from the [API](https://randomuser.me/) for generating random users.
 
 # Use
 To serve the API, run main.py  
