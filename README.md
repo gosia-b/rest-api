@@ -1,5 +1,5 @@
 # Introduction
-An application programming interface (API) is defined as an interface that handles the interactions between two or more pieces of software — commonly between a client application and a database.
+An application programming interface (API) is defined as an interface that handles the interactions between two or more pieces of software - commonly between a client application and a database.
 
 <img src="https://github.com/gosia-b/rest-api/blob/main/images/api.png" width="80%">
 
